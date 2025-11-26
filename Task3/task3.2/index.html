@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3.2</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Personal</legend>
+            <label>Name(text):</label>
+            <input type="text" name="name">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Contact & Security</legend>
+            <label>Email:</label>
+            <input type="email" name="email">
+            <br><br>
+            <label>Password:</label>
+            <input type="password" name="pass">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Preferences</legend>
+            <label>Favorite color:</label>
+            <input type="color" name="color">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Range & Options</legend>
+            <label>Volume Range(0:100):</label>
+            <input type="range" name="ran" min="0" max="100">
+            <br><br>
+            <p>Select your favorite pet:</p>
+            <input type="radio" name="pet" id="favpet1">
+            <label for="favpet1">Dog</label>
+            <br>
+            <input type="radio" name="pet" id="favpet2">
+            <label for="favpet2">Cat</label>
+            <br>
+            <input type="radio" name="pet" id="favpet3">
+            <label for="favpet3">Bird</label>
+            <br><br>
+            <p> Interests (Check all that apply):</p>
+            <input type="checkbox" name="choose" id="code">
+            <label for="code">Coding</label>
+            <br>
+            <input type="checkbox" name="choose" id="mus">
+            <label for="mus">Music</label>
+            <br>
+            <input type="checkbox" name="choose" id="trav">
+            <label for="trav">Travel</label>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Selection</legend>
+            <label for="country">Choose a country:</label>
+            <select  name="country" id="country">
+
+                <optgroup>
+                    <option>US</option>
+                    <option>Egypt</option>
+                    <option>Canada</option>
+                    <option>Dubai</option>
+                    <option>Qatar</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <br><br><br>
+        <fieldset>
+        <legend>Comments</legend>
+        <label>Your Comments (Textarea):</label><br>
+        <textarea cols="40" rows="4"></textarea>
+         </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>File Upload</legend>
+            <label>Upload a File:</label>
+            <input type="file" name="file">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Specialized Text Inputs</legend>
+            <label>search this site</label>
+            <input type="search" name="search">
+            <br><br>
+            <label>Your Website URL:</label>
+            <input type="url" placeholder="https://example.com">
+        </fieldset>
+        <br><br>
+        <br><br>
+        <fieldset>
+            <legend>Date & Time</legend>
+            <label>Date:</label>
+            <input type="date" name="date">
+            <br><br>
+            <label>Month:</label>
+            <input type="month" name="mon">
+            <br><br>
+            <label>Time:</label>
+            <input type="time" name="time">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Details(Suggestion)</legend>
+            <label>Choose a browser(with suggestion):</label>
+            <input type="text" name="suggestion">
+            <br><br>
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Clear Form">
+    </form>
+    
+</body>
+</html>
