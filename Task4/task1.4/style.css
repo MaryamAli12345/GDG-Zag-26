@@ -1,0 +1,77 @@
+body{
+    background-color:rgb(231, 247, 252);
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+header{
+    height: 100px;
+    background-color:steelblue;
+    text-align: center;
+    color: white;
+}
+
+#uniqe{
+    border: 1px solid steelblue;
+    color: rgb(31, 66, 95);
+}
+
+.about{
+    margin-top: 15px;
+    height: 150px;
+    border: 1px solid steelblue;
+    overflow: auto;
+}
+
+h4{
+    color: rgb(31, 66, 95);
+}
+
+.project{
+    height: 550px;
+    background-color: aliceblue;
+    border: 1px dashed steelblue;
+}
+h5{
+    margin-left: 10px;
+    color: rgb(31, 66, 95);
+}
+section div{
+    border: 1px solid steelblue;
+    width: 20%;
+    height: fit-content;
+    padding: 10px;
+    margin: 15px;
+    display:inline-block;
+    text-align: center;
+
+}
+
+section img{
+    width: 60px;
+    height: 60px;
+    border: 1.5px solid steelblue;
+
+}
+
+section div h3{
+    text-decoration: underline;
+    color: steelblue;
+}
+
+button{
+    margin-left: 15px;
+    background-color:darkturquoise;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+}
+
+footer{
+    height: 50px;
+    color: white;
+    background-color: steelblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
